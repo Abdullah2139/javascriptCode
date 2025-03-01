@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+}
+
+nav {
+  background-color: #333;  
+  padding: 1rem;          
+  margin-bottom: 20px;    
+}
+
+nav a {
+  color: white;           
+  text-decoration: none;  
+  padding: 10px 20px;     
+  margin-right: 10px;     
+  font-size: 16px;        
+  border-radius: 4px;     
+  transition: all 0.3s;   
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #fff;    
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
